@@ -13,5 +13,8 @@ def s(a,b):         #建立一个递归函数
         return s(b,c)
     else:
         return b
-    
-    
+d = a*b/s(a,b)   #利用最大公约数求最小公倍数
+if d<400760000000:  #最小公倍数和边界值进行比较
+    print(int(d))
+else:
+    print('impossible!')
