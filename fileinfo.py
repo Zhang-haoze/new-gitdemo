@@ -18,3 +18,5 @@ if d<400760000000:  #最小公倍数和边界值进行比较
     print(int(d))
 else:
     print('impossible!')
+
+#Good job！
